@@ -1,0 +1,75 @@
+.text-decor{
+    font-size: 36px; /* Adjust font size as needed */
+    background: linear-gradient(to right, #000000, #ffA500, #87CEEB); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 10s linear infinite; 
+    background-size: 200% 100%;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+}
+
+.text-container{
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.text-containerRight{
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.slide-in{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.translate-y-0 {
+  opacity: 1;
+  transform: translateY(-200%);
+  transition: transform 6s ease-in-out, opacity 6s ease-in-out;
+}
+
+.translate-y-full {
+  opacity: 0;
+  transform: translateY(0);
+ 
+}
+.translation-y-0 {
+  opacity: 1;
+  transform: translateY(-200%);
+  transition: transform 6s ease-in-out, opacity 6s ease-in-out;
+}
+
+.translation-y-full {
+  opacity: 0;
+  transform: translateY(0);
+ 
+}
+
+
+  .translateTop {
+    transform: translateY(-20%);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 5s; /* Adjust as needed */
+    transition-timing-function: ease-in-out;
+  }
+
+  .translateMiddle {
+    transform: translateY(55%);
+    opacity: 1;
+    transition-property: transform, opacity;
+    transition-duration: 5s; /* Adjust as needed */
+    transition-timing-function: ease-in-out;
+  }
+
+ 
