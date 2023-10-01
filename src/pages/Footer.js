@@ -36,8 +36,8 @@ export default function Footer() {
         
       </div>
       <div className='flex-row lg:flex lg:space-x-4 items-center mr-4 lg:mr-10'>
-        <a href='https://linkedin.com/in/rogerarnab' target="_blank" rel="noreferrer" className='text-2xl py-1 hover:text-sky-400 cursor-pointer'><BiLogoLinkedin /></a>
-        <a href="https://github.com/Arnab0227" target="_blank" rel="noreferrer" className='text-2xl py-1 pt-2 hover:text-sky-400 cursor-pointer'><FiGithub /></a>
+        <a href='https://linkedin.com/in/rogerarnab' target="_blank" rel="noreferrer" ><BiLogoLinkedin className='text-2xl hover:text-sky-400 cursor-pointer'/></a>
+        <a href="https://github.com/Arnab0227" target="_blank" rel="noreferrer" ><FiGithub className='text-2xl mt-4 lg:mt-0 hover:text-sky-400 cursor-pointer'/></a>
       </div>
     </div>
     </div>

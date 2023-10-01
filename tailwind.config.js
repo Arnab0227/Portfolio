@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes:{
+        shimmer:{
+          '100%': {transform: 'translateX(100%)'}
+        }
+      },
+      animation:{
+        shimmer: 'shimmer 1.5s infinite'
+      }
+    },
     borderWidth: {
       DEFAULT: '1px',
       '0': '0',
@@ -24,7 +33,7 @@ module.exports = {
       '1000': '1000ms',
       '1500': '1500ms',
       '2000': '2000ms',
-    }
+    },
   },
   plugins: [require('tailwindcss-elevation'),],
 }

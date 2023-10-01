@@ -16,15 +16,16 @@ export default function Projects() {
         <div className='text-xl lg:text-2xl flex items-center pt-5 space-x-5'>
           <p className='text-xl lg:text-2xl pr-5 font-semibold'> features:</p>
           <ul className='lg:text-xl text-base italic list-disc pr-2 space-y-1'> 
-            <li className=''>Responsive for large and mobile screens.</li>
+            <li>Responsive for large and mobile screens.</li>
             <li>single page application.</li>
-            <li>One stop solution for all my experience, skills, education, and projects.</li>
-            <li>beautifully designed and structured maintained. </li>
-            <li>Custom css values and tailwindCss both are used, for variation.</li>
-            <li>some key features are like view resume option, skills proficiency bar option, links.</li>
+            <li>All of my expertise, knowledge, training, and projects in one place.</li>
+            <li>wonderfully crafted and well-structured. </li>
+            <li>TailwindCss and custom CSS values are both utilized for variety.</li>
             <li>Contact information in Modal which isn't scrollable.</li>
-            <li>In contact information Email id can be copied</li>
-            <li>Social links attached and can open in new tab.</li>
+            <li>When Timeout is enabled, the Skeleton functionality is used.</li>
+            <li>Email addresses can be copied in contact information.</li>
+            <li>Linked social links that can open in new tabs.</li>
+            <li>View résumé option, skills proficiency bar option, and links are some significant elements.</li>
           </ul>
           
         </div>
@@ -53,12 +54,12 @@ export default function Projects() {
         <div className='text-xl lg:text-2xl flex items-center pt-5 space-x-5'>
           <p className='text-xl lg:text-2xl pr-5 font-semibold'> features:</p>
           <ul className='lg:text-xl text-base italic list-disc pr-2 space-y-1'> 
-            <li className=''>For large Screens</li>
+            <li>For large Screens</li>
             <li>single page application.</li>
-            <li>One stop demo how Tickete payment page looks like. </li>
-            <li>beautifully designed and structured maintained. </li>
-            <li>TailwindCss used for design.</li>
-            <li>Some key features are like Accordion, dropdown, flex-grid.</li>
+            <li>A demonstration of the Tickete payment page. </li>
+            <li>wonderfully crafted and well-structured. </li>
+            <li>Design was done with TailwindCss.</li>
+            <li>Key features include dropdown, flex-grid, and accordion.</li>
           </ul>
           
         </div>
@@ -88,12 +89,12 @@ export default function Projects() {
         <div className='text-xl lg:text-2xl flex items-center pt-5 space-x-5'>
           <p className='text-xl lg:text-2xl pr-5 font-semibold'> features:</p>
           <ul className='lg:text-xl text-base italic list-disc pr-2 space-y-1'> 
-            <li className=''>For large Screens</li>
+            <li className=''>Responsive for large and mobile screens.</li>
             <li>single page application.</li>
-            <li>One stop demo how Api can be handled. </li>
-            <li>beautifully designed and structured maintained. </li>
-            <li>search for any images suggestion in this Application.</li>
-            <li>Some key features are like Search bar, Axios.</li>
+            <li>A demonstration of how to handle Api. </li>
+            <li>wonderfully crafted and well-structured. </li>
+            <li>In this Application, look for any image suggestions.</li>
+            <li>Axios and the search bar are some important elements.</li>
           </ul>
           
         </div>
@@ -123,13 +124,13 @@ export default function Projects() {
         <div className='text-xl lg:text-2xl flex items-center pt-5 space-x-5'>
           <p className='text-xl lg:text-2xl pr-5 font-semibold'> features:</p>
           <ul className='lg:text-xl text-base italic list-disc pr-2 space-y-1'> 
-            <li className=''>For large Screens</li>
+            <li className=''>Responsive for large and mobile screens.</li>
             <li>single page application.</li>
-            <li>One stop demo how Car applications handle stock pages. </li>
-            <li>beautifully designed with TailwindCss and structured maintained. </li>
-            <li>Add new cars with their price tags.</li>
-            <li>Some key features are like search with initial letters, sorting.</li>
-            <li>Total stock with their price can be maintained.</li>
+            <li>A demonstration of how car applications manage stock pages. </li>
+            <li>wonderfully crafted and well-structured with TailwindCss. </li>
+            <li>Include the sticker prices for new autos.</li>
+            <li>Total stock and pricing can be maintained.</li>
+            <li>Some essential functions are sorting and searching using first letters.</li>
           </ul>
           
         </div>
@@ -159,13 +160,13 @@ export default function Projects() {
         <div className='text-xl lg:text-2xl flex items-center pt-5 space-x-5'>
           <p className='text-xl lg:text-2xl pr-5 font-semibold'> features:</p>
           <ul className='lg:text-xl text-base italic list-disc pr-2 space-y-1'> 
-            <li className=''>For both mobile and large Screens</li>
+            <li className=''>Responsive for big and mobile screens.</li>
             <li>single page application.</li>
-            <li>One stop solution for all Resume details. </li>
-            <li>beautifully designed and structured maintained. </li>
-            <li>Dark and light modes in visibility.</li>
-            <li>Pdf download feature is available.</li>
-            <li>Some key features are like search dark mode, pdf Dowload, progress Bar.</li>
+            <li>All resume information in one place. </li>
+            <li>wonderfully crafted and well-structured. </li>
+            <li>Visibility modes in the dark and light.</li>
+            <li>The PDF download feature remains accessible..</li>
+            <li>Some essential features are progress bars, dark search, and pdf download..</li>
           </ul>
         </div>
         <div className='text-center pt-2 lg:text-start'>**Caution it's not recently updated**</div>

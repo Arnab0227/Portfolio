@@ -47,7 +47,7 @@ export default function Carousel() {
           <GoGrabber />
         </button>
       </div>
-      <div className="lg:hidden flex justify-center items-center pt-5">
+      <div className="lg:hidden flex justify-center items-center pt-5 mx-1">
         <img
           src={images[imageSet]}
           alt="images"

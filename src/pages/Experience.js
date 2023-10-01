@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import '../GradientText.css'
+import Skeleton from '../assets/Skeleton'
 
 export default function Experience() {
 
@@ -13,9 +14,12 @@ export default function Experience() {
 
   return (
     <div className=' text-center text-2xl'>
+    
+
         <div className='w-full h-20 rounded-lg shadow-xl md:px-10 flex justify-center items-center lg:h-32 bg-black'>
           <p className='text-center pt-6 pb-4 font-bold font-sans text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-600'> Experience:</p>       
         </div>
+        {!isVisible && <div> <Skeleton times={10} className="p-5 h-36 w-full"/></div>}
         <div className={`border-b p-5 text-container ${isVisible ? 'slide-in' : ''}`}>
           <p className='text-4xl'>Position</p>
           <p className='pt-5 text-gray-700'>Web Developer</p>
@@ -58,6 +62,7 @@ export default function Experience() {
             <li className='mb-10'> Testing the functionalities of the project.</li>
           </ol>
         </div>
+        
     </div>
   )
 }
