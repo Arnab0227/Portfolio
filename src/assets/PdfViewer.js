@@ -2,7 +2,7 @@
 
 export default function PdfViewer() {
     
-    const pdfViewUrl = 'https://drive.google.com/file/d/1_odA4SIjppEogfCy1B0MSghk2kYjIFp2/view?usp=sharing'
+    const pdfViewUrl = 'https://drive.google.com/file/d/1OF9q72gg0anD2KUniQDORhJGgVBtXD-W/view?usp=sharing'
     
     const openPdfInNewTab = () => {
         window.open(pdfViewUrl, '_blank');
